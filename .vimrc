@@ -12,7 +12,7 @@ map <F5> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR><CR> :TlistUpda
 imap <F5> <ESC>:!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR><CR> :TlistUpdate<CR>
 set tags=tags
 set tags+=./tags
-set tags+=~/ws/cyc_core/cyc_app/tags
+set tags+=~/ws/cyc_core/cyc_app/cyclone/tags
 
 " OmniCppComplete
 " ctags 索引文件 (根据已经生成的索引文件添加即可, 这里我额外添加了 hge 和 curl的索引文件)
