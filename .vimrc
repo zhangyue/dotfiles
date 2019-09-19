@@ -38,5 +38,6 @@ set showcmd
 filetype indent on
 set wildmenu
 set hlsearch
-
-filetype on
+ 
+set nocp
+filetype plugin on
