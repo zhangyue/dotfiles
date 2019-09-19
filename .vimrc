@@ -1,6 +1,7 @@
 call pathogen#infect() 
 autocmd vimenter * NERDTree
 map <C-n> :NERDTreeToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 syntax enable
 set tabstop=4
