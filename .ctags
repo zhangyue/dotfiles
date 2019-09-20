@@ -1,0 +1,7 @@
+--sort=1 
+--c++-kinds=+p 
+--python-kinds=-i 
+--fields=+iaS 
+--extra=+q 
+--language-force=C++ 
+--exclude=*/debug/*
